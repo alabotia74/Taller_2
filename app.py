@@ -31,6 +31,7 @@ def load_data():
 # Cargar datos
 data = load_data()
 
+
 # Graficar serie
 def plot_series(data, initial_date, proy):
     data_plot = data.loc[initial_date:]
